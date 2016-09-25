@@ -1,0 +1,11 @@
+CREATE TABLE tbl_documentos (
+  id_documento INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  titulo VARCHAR(50) NULL,
+  descripcion MEDIUMTEXT NULL,
+  contenido LONGBLOB NULL,
+  tamanio INTEGER UNSIGNED NULL,
+  tipo VARCHAR(50) NULL,
+  nombre_archivo VARCHAR(55) NULL,
+  tamanio_unidad VARCHAR(50) NULL,
+  PRIMARY KEY(id_documento)
+);
